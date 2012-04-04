@@ -25,7 +25,6 @@ Gizli menülerin bazısı şifre sorarsa 0413 ü deneyin. Şifreyi normal kumand
 
 #### Faydalanilan Kaynaklar (This sowtware was developed with inspiration and/or information taken from):
 ----
-This sowtware was developed with inspiration and/or information taken from:
 
 *   <http://python.org>
 
