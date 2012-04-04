@@ -20,8 +20,24 @@ Gizli menülerin bazısı şifre sorarsa 0413 ü deneyin. Şifreyi normal kumand
 
 "Factory reset" yapılmadıkça eşleme anahtarı değişmez, bu nedenle eşleme adımını atlamak LgKumanda.py dosyasını bir editor ile açın şu satırı size uygun hale getirin:
 
-    lgtv["pairingKey"] = "DDGWAF"
+    lgtv["pairingKey"] = "DDGWUF"
 
+## LgKumandaTD.py
+
+Lg Televizyonun DVB-C özelliğini kullanan ve Teledünya abonesi olanlar icin bir program. Bütün Teledünya kanallarına ve bazı butonlara PC nizde tek bir pencereden erişebiliyorsunuz. Uzaktan kumanda aletinde "RECORD" butonu olmayanların kayıt başlatmak için tıklayabileceği bir "RECORD" butonu da var.
+
+1. PC nizle LG TV aynı networkde olmalı,
+2. PC nizde Python 3.x kurulu olmalı.
+3. Programı televizyonunuza uygun hale getirmeniz gerekir:
+LgKumanda.py programını kullanarak eşleme anahtarını öğrenin. LgKumandaTD.py dosyasını bir editor ile açın, şu satırı size uygun hale getirin:
+
+    lgtv["pairingKey"] = "DDGWUF"
+
+4. Programla aynı dizinde "mychannels.xml" dosyası bulunmalıdır. Burada verilen "mychannels.xml" İstanbul Teledünya aboneleri için geçerlidir.  Bir kanalı (örneğin abonesi olmadığınız bir kanalı) silmek için "mychannels.xml" dosyasında o kanalla ilgili <data> ile başlayıp </data> ile biten bölumü silin.
+
+### Windows kullananlar için not:
+----
+"py" uzantılı dosyaları "pyw" yaparsanız siyah konsol penceresi açılmaz. 
 
 #### Faydalanilan Kaynaklar (This sowtware was developed with inspiration and/or information taken from):
 ----
