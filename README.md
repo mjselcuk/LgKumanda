@@ -33,7 +33,7 @@ LgKumanda.py programını kullanarak eşleme anahtarını öğrenin. LgKumandaTD
 
     lgtv["pairingKey"] = "DDGWUF"
 
-4. Programla aynı dizinde "mychannels.xml" dosyası bulunmalıdır. Burada verilen "mychannels.xml" İstanbul Teledünya aboneleri için geçerlidir.  Bir kanalı (örneğin abonesi olmadığınız bir kanalı) silmek için "mychannels.xml" dosyasında o kanalla ilgili <data> ile başlayıp </data> ile biten bölumü silin.
+4. Programla aynı dizinde "mychannels.xml" dosyası bulunmalıdır. Burada verilen "mychannels.xml" İstanbul Teledünya aboneleri için geçerlidir.  Bir kanalı (örneğin abonesi olmadığınız bir kanalı) silmek için "mychannels.xml" dosyasında o kanalla ilgili \<data\> ile başlayıp \</data\> ile biten bölümü silin.
 
 ### Windows kullananlar için not:
 ----
