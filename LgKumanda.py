@@ -18,9 +18,10 @@ class MyDialog:
         self.e.focus_set()
         b = Button(top, text="Tamam", command=self.ok)
         b.pack(pady=5)
+        top.bind("<Return>", self.ok)
         top.title("LG Kumanda")
         top.geometry("410x250+10+10")
-    def ok(self):
+    def ok(self,dummy=None):
         global result
         result = self.e.get()
         self.top.destroy()

@@ -28,12 +28,7 @@ Lg Televizyonun DVB-C özelliğini kullanan ve Teledünya abonesi olanlar icin b
 
 1. PC nizle LG TV aynı networkde olmalı,
 2. PC nizde Python 3.x kurulu olmalı.
-3. Programı televizyonunuza uygun hale getirmeniz gerekir:
-LgKumanda.py programını kullanarak eşleme anahtarını öğrenin. LgKumandaTD.py dosyasını bir editor ile açın, şu satırı size uygun hale getirin:
-
-    lgtv["pairingKey"] = "DDGWUF"
-
-4. Programla aynı dizinde "mychannels.xml" dosyası bulunmalıdır. Burada verilen "mychannels.xml" İstanbul Teledünya aboneleri için geçerlidir.  Bir kanalı (örneğin abonesi olmadığınız bir kanalı) silmek için "mychannels.xml" dosyasında o kanalla ilgili \<data\> ile başlayıp \</data\> ile biten bölümü silin.
+3. Programla aynı dizinde "mychannels.xml" dosyası bulunmalıdır. Burada verilen "mychannels.xml" İstanbul Teledünya aboneleri için geçerlidir.  Bir kanalı (örneğin abonesi olmadığınız bir kanalı) silmek için "mychannels.xml" dosyasında o kanalla ilgili \<data\> ile başlayıp \</data\> ile biten bölümü silin.
 
 ### Windows kullananlar için not:
 ----
