@@ -18,7 +18,7 @@ Programı kullanarak özellikle şu gizli menülere girebilirsiniz:
 Installation menuden kurulum bilgilerinizi USB flash a yedekleyip geri yükleyebilirsiniz.
 Gizli menülerin bazısı şifre sorarsa 0413 ü deneyin. Şifreyi normal kumandayı kullanarak girebilirsiniz. 
 
-"Factory reset" yapılmadıkça eşleme anahtarı değişmez, bu nedenle eşleme adımını atlamak LgKumanda.py dosyasını bir editor ile açın şu satırı size uygun hale getirin:
+"Factory reset" yapılmadıkça eşleme anahtarı değişmez, bu nedenle eşleme adımını atlamak için LgKumanda.py dosyasını bir editor ile açın şu satırı size uygun hale getirin:
 
     lgtv["pairingKey"] = "DDGWUF"
 
